@@ -17,7 +17,7 @@
  * under the License.
  */
 
- // hakee tiedot ja tulostaa
+ // hakee tiedot ja tulostaa !!HUOM ei toimi vielä
         $('#hae').click(function() {
           var db = indexedDB.open('sarjat', 1);
           db.onsuccess= (event) => {
